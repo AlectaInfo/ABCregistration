@@ -19,6 +19,7 @@ class AppKernel extends Kernel
             new ABC\ApplicationBundle\ABCApplicationBundle(),
             new ABC\CourseBundle\ABCCourseBundle(),
             new ABC\ResourcePersonBundle\ABCResourcePersonBundle(),
+            new ABC\LoginBundle\ABCLoginBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
