@@ -6,3 +6,6 @@ abc_application:
     resource: "@ABCApplicationBundle/Resources/config/routing.yml"
     prefix:   /
 
+abc_resource_person:
+    resource: "@ABCResourcePersonBundle/Resources/config/routing.yml"
+    prefix:   /

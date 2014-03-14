@@ -1,0 +1,7 @@
+parameters:
+#    abc_resource_person.example.class: ABC\ResourcePersonBundle\Example
+
+services:
+#    abc_resource_person.example:
+#        class: %abc_resource_person.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
