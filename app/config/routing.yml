@@ -1,3 +1,7 @@
+abc_login:
+    resource: "@ABCLoginBundle/Resources/config/routing.yml"
+    prefix:   /
+
 abc_application:
     resource: "@ABCApplicationBundle/Resources/config/routing.yml"
     prefix:   /

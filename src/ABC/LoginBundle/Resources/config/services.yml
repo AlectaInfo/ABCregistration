@@ -1,0 +1,7 @@
+parameters:
+#    abc_login.example.class: ABC\LoginBundle\Example
+
+services:
+#    abc_login.example:
+#        class: %abc_login.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
