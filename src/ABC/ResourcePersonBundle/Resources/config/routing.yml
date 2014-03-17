@@ -1,3 +1,11 @@
 abc_resource_person_homepage:
     pattern:  /hello/{name}
     defaults: { _controller: ABCResourcePersonBundle:Default:index }
+    
+rsp_new:
+    pattern: /new
+    defaults: { _controller: ABCResourcePersonBundle:Resourceperson:add}
+
+rsp_create:
+    pattern: /new/create
+    defaults: { _controller: ABCResourcePersonBundle:Resourceperson:create}
