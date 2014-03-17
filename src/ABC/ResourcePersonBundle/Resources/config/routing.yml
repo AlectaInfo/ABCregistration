@@ -9,3 +9,8 @@ rsp_new:
 rsp_create:
     pattern: /new/create
     defaults: { _controller: ABCResourcePersonBundle:Resourceperson:create}
+    requirements: { _method: POST }
+    
+rsp_show:
+    pattern: /show/{id}
+    defaults: { _controller: ABCResourcePersonBundle:Resourceperson:show}
