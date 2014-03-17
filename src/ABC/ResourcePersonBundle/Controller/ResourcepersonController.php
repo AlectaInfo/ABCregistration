@@ -18,7 +18,11 @@ class ResourcepersonController extends Controller
             'method'=> "POST"   
         ));
        
-       $form->add('submit', 'submit', array('label' => 'ADD'));
+       $form->add('submit', 'submit', array(
+           'label' => 'ADD',
+           'attr'=>array('class' => 'btn btn-large btn-primary')
+           )
+           );
         
         return $this->render('ABCResourcePersonBundle:rsp:add.html.twig',array('form'=> $form->createView()));
     }
