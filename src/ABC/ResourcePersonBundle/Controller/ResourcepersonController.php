@@ -15,13 +15,35 @@ class ResourcepersonController extends Controller
         
        $form = $this->createForm(new ResourcepersonType(), $resourcePerson, array(
             'action'=> $this->generateUrl('rsp_create'),
-             'method'=> "GET"   
+            'method'=> "POST"   
         ));
+       
+       $form->add('submit', 'submit', array('label' => 'ADD'));
         
-        $this->render('ABCResourcePersonBundle:rsp:add.html.twig',array('form'=> $form->createView()));
+        return $this->render('ABCResourcePersonBundle:rsp:add.html.twig',array('form'=> $form->createView()));
     }
     
     public function createAction($request){
+           
+    }
+    
+    public function updateAction(){
         
     }
+    
+    public function deleteAction(){
+        
+    }
+    
+    public function showAction(){
+        
+    }
+    
+    public function showAllAction(){
+        
+    }
+    
+    
+    // Create Forms for each action of the CRUD
+    
 }

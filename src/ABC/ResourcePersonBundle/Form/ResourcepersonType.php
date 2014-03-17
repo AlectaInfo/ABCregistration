@@ -23,7 +23,7 @@ class ResourcepersonType extends AbstractType
             ->add('post')
             ->add('deptName')
             ->add('qualification')
-            ->add('session')
+         //   ->add('session')
         ;
     }
     
