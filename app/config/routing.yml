@@ -1,3 +1,4 @@
+
 abc_course:
     resource: "@ABCCourseBundle/Resources/config/routing.yml"
     prefix:   /
@@ -8,8 +9,12 @@ abc_application:
 
 abc_resource_person:
     resource: "@ABCResourcePersonBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /rsp
 
 abc_login:
     resource: "@ABCLoginBundle/Resources/config/routing.yml"
+    prefix:   /
+
+abc_style:
+    resource: "@ABCStyleBundle/Resources/config/routing.yml"
     prefix:   /
